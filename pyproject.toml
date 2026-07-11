@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "hardhat"
+name = "hardhat-wc"
 version = "0.0.0"
 authors = [
     {name = "Gene Dan", email = "genedan@gmail.com"},
@@ -63,7 +63,7 @@ test = [
     "pytest-cov",
 ]
 all = [
-    "hardhat[dev,docs,test]",
+    "hardhat-wc[dev,docs,test]",
 ]
 
 [tool.pytest.ini_options]
