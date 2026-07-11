@@ -10,3 +10,6 @@ htmlcov/
 .ipynb_checkpoints/
 
 .idea/*
+
+# scratch files
+scratch*.py
