@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hardhat"
+version = "0.0.0"
+authors = [
+    {name = "Gene Dan", email = "genedan@gmail.com"},
+]
+maintainers = [
+    {name = "Gene Dan", email = "genedan@gmail.com"},
+]
+description = "Hardhat - Workers' Compensation, Retrospective, and Experience Rating"
+readme = "README.md"
+license = {text = "MPL-2.0"}
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+keywords = [
+    "actuarial",
+    "reserving",
+    "insurance",
+    "retrospective",
+    "experience",
+    "rating",
+    "workers compensation"
+]
+dependencies = [
+    "polars"
+]
+
+[project.urls]
+Homepage = "https://github.com/casact/hardhat"
+#Documentation = "https://hardhat.readthedocs.io/"
+Repository = "https://github.com/casact/hardhat"
+"Bug Tracker" = "https://github.com/casact/hardhat/issues"
+
+
+[project.optional-dependencies]
+dev = [
+    "pandas",
+    "pytest",
+    "pytest-cov",
+    "pytest-xdist",
+    "pyright",
+]
+docs = [
+    "sphinx"
+]
+test = [
+    "pytest-cov",
+]
+all = [
+    "hardhat[dev,docs,test]",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["hardhat", "hardhat.*"]
+
+[tool.setuptools.package-data]
+hardhat = ["py.typed"]
+
