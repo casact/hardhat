@@ -43,13 +43,14 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/casact/hardhat"
-#Documentation = "https://hardhat.readthedocs.io/"
+Documentation = "https://casact.github.io/hardhat/"
 Repository = "https://github.com/casact/hardhat"
 "Bug Tracker" = "https://github.com/casact/hardhat/issues"
 
 
 [project.optional-dependencies]
 dev = [
+    "matplotlib",
     "pandas",
     "pytest",
     "pytest-cov",
@@ -57,7 +58,9 @@ dev = [
     "pyright",
 ]
 docs = [
-    "sphinx"
+    "sphinx",
+    "pydata-sphinx-theme",
+    "pandas",
 ]
 test = [
     "pytest-cov",
