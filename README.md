@@ -1,4 +1,9 @@
 # hardhat
+
+[![Python versions](https://badgen.net/pypi/python/hardhat-wc)](https://pypi.python.org/pypi/hardhat-wc)
+[![Build Status](https://github.com/casact/hardhat/actions/workflows/pytest.yml/badge.svg)](https://github.com/casact/hardhat/actions/workflows/pytest.yml)
+[![codecov](https://codecov.io/gh/casact/hardhat/branch/main/graphs/badge.svg)](https://codecov.io/github/casact/hardhat?branch=main)
+
 Workers' compensation, retrospective and experience rating
 
 # Introduction
@@ -52,7 +57,9 @@ table_m.lee_diagram().show()
 
 # Relevant Papers
 
-Table M Construction - Brosius
+Brosius, J. Eric, "Table M Construction," *CAS Exam Study Note*, 2002, pp. 1-14.
+
+Teng, Michael T.S., "Pricing Workers' Compensation Large Deductible and Excess Insurance," *Casualty Actuarial Society Forum*, Winter 1994, pp. 413-437.
 
 # Experts needed!
 
