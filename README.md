@@ -1,6 +1,5 @@
 # hardhat
 
-[![Python versions](https://badgen.net/pypi/python/hardhat-wc)](https://pypi.python.org/pypi/hardhat-wc)
 [![Build Status](https://github.com/casact/hardhat/actions/workflows/pytest.yml/badge.svg)](https://github.com/casact/hardhat/actions/workflows/pytest.yml)
 [![codecov](https://codecov.io/gh/casact/hardhat/branch/main/graphs/badge.svg)](https://codecov.io/github/casact/hardhat?branch=main)
 
@@ -8,8 +7,7 @@ Workers' compensation, retrospective and experience rating
 
 # Introduction
 
-hardhat aims to bring workers' compensation calculations into a single Python package by converting the algorithms found 
-in the CAS Exam 8 material into code. We will start with Table M construction (since it's one of the easier papers).
+hardhat aims to bring workers' compensation calculations into a single Python package by converting the algorithms from the (historical) CAS Exam 8 material into code. We will start with Table M construction (since it's one of the easier papers).
 
 # Examples
 
