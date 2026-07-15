@@ -60,6 +60,7 @@ dev = [
 docs = [
     "sphinx",
     "pydata-sphinx-theme",
+    "sphinx-design",
     "pandas",
 ]
 test = [
