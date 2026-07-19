@@ -59,6 +59,26 @@ Brosius, J. Eric, "Table M Construction," *CAS Exam Study Note*, 2002, pp. 1-14.
 
 Teng, Michael T.S., "Pricing Workers' Compensation Large Deductible and Excess Insurance," *Casualty Actuarial Society Forum*, Winter 1994, pp. 413-437.
 
+Feldblum, Sholom, "Workers' Compensation Ratemaking," *CAS Exam Study Note*, 1993.
+
+Fisher, Ginda Kaplan; McTaggart, Lawrence; Petker, Jill; Pettingell, Rebecca, "Individual Risk Rating," *CAS Study Note*, 2019.
+
+Gillam, William R., "Workers Compensation Experience Rating: What Every Actuary Should Know," *PCAS* LXXIX, 1992, pp. 215-254.
+
+Meyers, Glenn G., "An Analysis of Retrospective Rating," *PCAS* LXVII, 1980, pp. 110-143.
+
+Lee, Yoong-Sin, "The Mathematics of Excess of Loss Coverages and Retrospective Rating—A Graphical Approach," *PCAS* LXXV, 1988, pp. 49-77.
+
+Gillam, William R., "Retrospective Rating: Excess Loss Factors," *PCAS* LXXVIII, 1991, pp. 1-40.
+
+Cook, Charles F.; Lommele, Jan A.; Retterath, Ronald C., "Reserving Issues for Workers' Compensation," *CLRS Transcripts*, 1994, pp. 83-130.
+
+Skurnick, David, "The California Table L," *PCAS* LXI, 1974, pp. 117-140.
+
+Robertson, John P., "NCCI's 2007 Hazard Group Mapping," *Variance* 3(2), 2009, pp. 194-213.
+
+Venter, Gary G., "Transformed Beta and Gamma Distributions and Aggregate Losses," *PCAS* LXX, 1983, pp. 156-193.
+
 # Experts needed!
 
 If you happen to have experience in workers' compensation (\*cough\*, *ahem*), your participation will be greatly 
